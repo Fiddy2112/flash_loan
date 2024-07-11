@@ -1,7 +1,9 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "deploy": "npx hardhat ignition deploy ./ignition/modules/deployFlashLoan.js --network sepolia"
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/deployFlashLoan.js --network sepolia",
+    "deployDex": "npx hardhat ignition deploy ./ignition/modules/deployDex.js --network sepolia",
+    "deployFLA": "npx hardhat ignition deploy ./ignition/modules/deployFlashLoanArbitrage.js --network sepolia"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
